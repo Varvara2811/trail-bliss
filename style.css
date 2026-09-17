@@ -6,13 +6,20 @@
 }
  .header .container{
     display: flex;
+    border-radius: 60px;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #FEFCF7;
  }
 .header-logo{
     color: #161616;
 font-family: Manrope;
 font-size: 18px;
 font-style: normal;
+display: flex;
+gap: 12px;
+align-items: center;
 font-weight: 500;
 line-height: normal;
 }
@@ -44,6 +51,7 @@ display: none;
 @media (min-width: 1264px){
    .container{
     width: 1264px;
+    padding: 0 12px;
 } 
 .header{
     padding-top: 40px;
@@ -54,13 +62,26 @@ display: none;
 .header-list{
     display: flex;
     gap: 32px;
-    margin-right: auto;
-}
-.header-list{
-display: flex;
 }
 .header-items{
 display: flex;
 gap: 32px;
+
+}
+.header-link{
+color: #161616;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header-contact{
+  color: #161616;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;  
 }
 }
