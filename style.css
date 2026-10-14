@@ -263,6 +263,248 @@ border-radius: 16px;
 .img-item:nth-child(3):hover::after {
     opacity: 1;
 }
+.exploring .container{
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.exp-img{
+justify-content: flex-start;
+width: 362.0px;
+height: 280.0px;
+border-radius: 15px;
+background: url() lightgray 50% / cover no-repeat;
+}
+.exp-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.exp-title{
+    padding-top: 20px;
+    align-self: stretch;
+color: var(--Black);
+text-align: center;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+}
+.exp-text{
+align-self: stretch;
+color: var(--Gray-Dark);
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.exp-button{
+color: var(--Black);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 14px 22px;
+gap: 10px;
+margin-top: 8px;
+align-items: center;
+background-color: transparent;
+border-radius: 100px;
+border: 1px solid var(--Black, #161616);
+}
+                       /* PRICES */
+.prices .container{
+padding: 40px 9px;
+display: flex;
+flex-direction: column;
+}
+.prices{
+background-color: var(--cream-lite);
+}
+.price-item{
+    background: #FFF;
+    width: 362.0px;
+height: 513.0px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+margin: 0 auto;
+}
+.price-svg{
+width: 7.1px;
+height: 13.0px;
+}
+.svg-link:nth-child(2) .price-svg{
+    transform: rotate(180deg);
+}
+.svg-link{
+padding: 10px 15px;
+outline: 1px solid var(--black);
+border-radius: 999px;
+}
+.svg-box{
+    padding-top: 20px;
+padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.price-title{
+  align-self: stretch;
+color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+}
+.price-img{
+    width: 322.0px;
+height: 260.0px;
+margin: 0 auto;
+border-radius: 16px;
+background: url() lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.price-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.price-seasons{
+    color: var(--Trial-Black);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+margin: 0 auto;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+
+padding: 8px 12px;
+width: 110.0px;
+border-radius: 27px;
+background: var(--Cream, #FBF1D6);
+}
+.price-subtitle{
+    align-self: stretch;
+color: var(--Black);
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.price-text{
+align-self: stretch;
+color: var(--Gray-Dark, #454444);
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.price{
+    color: var(--Gray-Dark);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+display: flex;
+flex-direction: column;
+gap: 4px;
+text-align: center;
+font-weight: 500;
+line-height: normal;
+}
+.price-span{
+    color: #2B2B2B;
+    text-align: center;
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%;
+}
+.price-item:nth-child(2){
+    display: none;
+}
+                  /* TRAVEL */
+.travel .container{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trv-img{
+    width: 362.0px;
+height: 280.0px;
+/* width: 100%;
+height: auto; */
+border-radius: 15px;
+background: url() lightgray 50% / cover no-repeat;
+}
+.trv-title{
+    padding-top: 20px;
+    align-self: stretch;
+color: var(--Black);
+text-align: center;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+}
+.trv-text{
+    align-self: stretch;
+color: var(--Gray-Dark, #454444);
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.trv-btn{
+    color: var(--Black);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 14px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 178.0px;
+margin: 0 auto;
+margin-top: 8px;
+border-radius: 100px;
+border: 1px solid var(--Black, #161616);
+background: var(--White, #FFF);
+background-color: transparent;
+}
+.travel-list{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
 
 @media (min-width: 382px){
 .container{
@@ -396,6 +638,7 @@ width: 496.0px;
 font-size: 24px;
 font-weight: 700;
 }
+         /* TOUR */
 .tour-title{
 font-size: 24px;
 width: 202.0px;
@@ -411,5 +654,93 @@ font-size: 18px;
 }
 .book-text{
 font-size: 24px;
+}
+                /* EXPLORING */
+.exploring .container{
+padding: 120px 100px;
+flex-direction: row;
+}
+.exp-list{
+    flex-direction: column;
+    width: 608.0px;
+    gap: 24px;
+}
+.exp-img{
+width: 503.0px;
+height: 500.0px;
+margin-left: 50px;
+}
+.exp-title{
+text-align: start;
+font-size: 48px;
+font-weight: 700;
+}
+.exp-text{
+    text-align: start;
+}
+.exp-item{
+    width: 608.0px;
+}
+ 
+                 /* PRICES */
+.prices .container{
+padding: 80px 0px;
+}
+.price-item:nth-child(2){
+display: flex;
+}
+.price-list{
+    flex-direction: row;
+    gap: 20px;
+}
+.price-img{
+width: 550.0px;
+height: 350.0px;
+
+}
+.price-item{
+    width: 700.0px;
+height: 600.0px;
+padding: 20px;
+}
+.price-subtitle,.price-text{
+    text-align: start;
+    width: 495.0px;
+}
+.price,.price-span{
+   text-align: right;
+   
+}
+.svg-box{
+    margin-left: auto;
+padding-right: 40px;
+}
+                 /* TRAVEL */
+.travel .container{
+padding: 120px 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 129px;
+}
+.trv-img{
+    width: 503.0px;
+height: 500.0px;
+}
+.trv-title{
+font-size: 48px;
+font-weight: 700;
+text-align: start;
+}
+.trv-text{
+font-size: 20px;
+text-align: start;
+}
+.trv-btn{
+margin: 0 auto 0 0;
+padding: 18px 22px;
+}
+.travel-item{
+    width: 608.0px;
 }
 }
