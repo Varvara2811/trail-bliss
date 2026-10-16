@@ -340,7 +340,7 @@ gap: 12px;
 margin: 0 auto;
 }
 .price-svg{
-width: 7.1px;
+    width: 7.1px;
 height: 13.0px;
 }
 .svg-link:nth-child(2) .price-svg{
@@ -500,6 +500,126 @@ background-color: transparent;
     display: flex;
     flex-direction: column;
 }
+
+
+                     /* COMMENTS */
+.comment .container{
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    background: var(--Cream-Lite, #FEFCF7);
+
+}
+.comm-title{
+    padding-top: 16px;
+    align-self: stretch;
+color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+}
+.comm-text{
+    align-self: stretch;
+color: var(--Gray-Dark, #454444);
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.comm-list{
+    display:flex;
+    flex-direction: column;
+}
+.comm-link:nth-child(2) .comm-svg{
+    transform: rotate(180deg);
+}
+.comm-link{
+padding: 10px 15px;
+outline: 1px solid var(--black);
+border-radius: 999px;
+}
+.svg-wrap{
+    padding-top: 20px;
+padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.comm-svg{
+    width: 7.1px;
+height: 13.0px;
+}
+.comm-box{
+    margin: 0 auto;
+    width: 351.0px;
+height: 313.0px;
+padding: 30px 20px;
+background: var(--Terratrip-White, #FFF);
+}
+.comm-img{
+    width: 40.0px;
+height: 40.0px;
+border-radius: 999px;
+display: block;
+/* margin-right: auto; */
+}
+.box-text{
+    color: #000;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.box-subtitle{
+color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.box-title{
+color: #000;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.help-box{
+    gap: 12px;
+    padding-top: 16px;
+display: flex;
+}
+.box-list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
